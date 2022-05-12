@@ -5,6 +5,7 @@ Nextjs 프로젝트 기본 셋팅 boilerplate
 - sass 사용가능
 - redux를 서버사이드에서도 접근가능하도록 셋팅
 - <span style="color:yellow">간단한 예제로 구현해보았다 사용법은 코드와 비교해보면 익히는것이 빠르다</span>
+- <span style="color:red">현재 프로젝트는 규모를 작게유지하며 next 포함 각 패키지의 버전업이 된다면 버전 업데이트를 해도 문제없는지도 체크하는 용도로 쓰자</span>
 
 ## 적용 패키지
 
