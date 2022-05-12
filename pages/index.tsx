@@ -18,9 +18,11 @@ const Home: NextPage<HomeProps> = ({ test }) => {
   );
 };
 
+// 서버사이드에서만 실행되는 next제공 함수
 export const getStaticProps = wrapper.getStaticProps(
   (store) => async (context: GetStaticPropsContext) => {
     console.log("params", context);
+    // 서버사이드이지만 redux store에 접근이 가능하다!!!
     store.dispatch(incrementByAmount(20));
     return {
       props: {
